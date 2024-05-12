@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    margin:15px;
+    font-size: 40px;
+}
+
+.number{
+    border:1px solid greenyellow;
+    border-radius: 10px;
+}
+.number:hover, .operator:hover, .decimal:hover, .equal:hover, .clear:hover{
+    background-color: violet;
+}
+.operator{
+    border:1px solid slateblue;
+    border-radius: 10px;
+}
+.decimal{
+    border:1px solid gold;
+    border-radius: 10px;
+}
+.equal{
+    border:1px solid palevioletred;
+    border-radius: 10px;
+}
+.clear{
+    border:1px solid peru;
+    border-radius: 10px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen{
+    width: 230px;
+    border:1px solid salmon;
+    height: 75px;
+    margin-bottom:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+    font-size:20px;
+}
+.current{
+    font-size:30px;
+}
